@@ -4,8 +4,8 @@ version: 1.0.5
 homepage: https://github.com/lqmminh/flutter_audio_streaming/tree/master
 
 environment:
-  sdk: ">=2.13.0 <3.0.0"
-  flutter: ">=2.2.2"
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
 
 dependencies:
   flutter:

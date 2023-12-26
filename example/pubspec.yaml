@@ -3,7 +3,7 @@ description: Demonstrates how to use the flutter_audio_streaming plugin.
 
 
 environment:
-  sdk: ">=2.13.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
