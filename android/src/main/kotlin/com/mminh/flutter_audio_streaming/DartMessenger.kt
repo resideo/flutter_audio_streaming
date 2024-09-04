@@ -1,4 +1,4 @@
-package com.mminh.flutter_audio_streaming
+package com.resideo.flutter_audio_streaming
 
 import android.text.TextUtils
 import io.flutter.plugin.common.BinaryMessenger

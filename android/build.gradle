@@ -1,5 +1,7 @@
-group 'com.mminh.flutter_audio_streaming'
-version '1.0-SNAPSHOT'
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
 
 buildscript {
     ext.kotlin_version = '1.7.10'
@@ -14,6 +16,9 @@ buildscript {
     }
 }
 
+group 'com.resideo.flutter_audio_streaming'
+version '1.0-SNAPSHOT'
+
 rootProject.allprojects {
     repositories {
         google()
@@ -21,9 +26,6 @@ rootProject.allprojects {
         maven { url 'https://jitpack.io' }
     }
 }
-
-apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 33
