@@ -44,7 +44,7 @@ class _StreamingAndRecordExampleState extends State<StreamingAndRecordExample>
   void dispose() async {
     _timer?.cancel();
     _timer = null;
-    WidgetsBinding.instance!.removeObserver(this);
+    WidgetsBinding.instance.removeObserver(this);
     super.dispose();
     if (isStreaming) await streamingController.stop();
     streamingController.dispose();
